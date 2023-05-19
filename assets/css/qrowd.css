@@ -996,7 +996,7 @@ ul {
 .main-menu .main-menu__list>li>ul>li>a::before,
 .main-menu .main-menu__list>li>ul>li>ul>li>a::before,
 .stricky-header .main-menu__list>li>ul>li>a::before,
-.stricky-header .main-menu__list>li>ul>li>ul>li>a::before {
+.stricky-header .li>ul>li>ul>li>a::before {
   position: absolute;
   top: 50%;
   right: 20px;
@@ -2770,8 +2770,8 @@ ul {
   background-position: left center;
   -webkit-transform: scale(1);
   transform: scale(1);
-  mix-blend-mode:lighten;
-  
+  mix-blend-mode: lighten;
+
   ;
   -webkit-transition: opacity 1500ms ease-in, -webkit-transform 7000ms ease;
   transition: opacity 1500ms ease-in, -webkit-transform 7000ms ease;
@@ -5856,7 +5856,7 @@ ul {
   line-height: 20px;
   font-weight: 800;
   counter-increment: count;
-  content: "0"counter(count);
+  content: "0" counter(count);
   transition: all 200ms linear;
   transition-delay: 0.1s;
   color: var(--qrowd-white);
@@ -9877,7 +9877,7 @@ ul {
   border-radius: 0px;
   height: 60px;
   border: 1px solid #e1eaea;
-  
+
   font-family: var(--qrowd-font);
   padding-left: 22px;
   outline: none;
@@ -11678,7 +11678,7 @@ ul {
   border-radius: 0px;
   height: 50px;
   border: 1px solid #e1eaea;
-  
+
   font-family: var(--qrowd-font);
   padding-left: 30px;
   outline: none;
@@ -12187,7 +12187,7 @@ ul {
   border-radius: 0px;
   height: 60px;
   border: 1px solid #e1eaea;
- 
+
   font-family: var(--qrowd-font);
   padding-left: 30px;
   outline: none;
